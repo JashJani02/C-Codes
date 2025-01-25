@@ -1,0 +1,53 @@
+body 
+{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #c16262;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.container
+{
+    width: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.ListofActions
+{
+   display: block;
+    width: 100%;
+    padding:10px;
+    margin: 10px 0;
+    background-color: #007;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ListofActions:hover
+{
+    background-color: #005;
+}
+
+#output
+{
+    margin-top: 20px;
+    padding: 10px;
+    border: #e9e9e9;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
